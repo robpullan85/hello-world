@@ -12,6 +12,6 @@ jobs:
     steps:
       - checkout
       - run: 
-          name: "echo an env var that is part of our project"
+          name: "env var"
           command: |
-            echo $Person_Name # this env var must be swt within the project
+            echo $Person_Name
